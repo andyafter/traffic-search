@@ -1,0 +1,35 @@
+.routers-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* .routers-detail .bus-num {
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+} */
+
+i.bus-stop {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5ElEQVQ4T42TvYsUQRDFX/VOanIKoqAImnigCAoql2h20QYHgooY7E73LAsGCqbe+h+YuMtUzd6CIsLBIQaKmriBiImKghiJovgBgoIY7nRJH3vD7DgH1+Hrrt+8elVDqDnOuR4RnVDVkwC+qOoLVR1kWfay+pzKQpIk86q6CmAvgAcAPgHYAeA4gEOqelFEbpdrCkC3290zmUw+A3jSaDSuDgaDt+WHzrkAPqOqbRFZ2bgrAM65+wCa3vtjdVZDgXPuFoDTURQd7Pf7f4NWBvwG8IiZz1lrm0R0DcDRjS8xM3U6nQXv/TNVXRCR5wXAWnuEiF4T0fk0Te9aa28CmCeiMRHl3vv3IrLWarW2RVH0B8BlZr5RAOI43mmM+QHgOjP3rLVPiehUOYOpg33e+4+quiQi92ZasNa+McZ8T9N0MVzEcVwA8jx/NxqNfiZJsqSqawAOMPOHagY9AMuquigij6vzjuP4sDHmIYBXzNz8bwrTlL8C2K2qF0TkTtDa7facMeYsEV0BsD/P8+3D4fBXLWAKWVXVYXARNhLAJQBz08XqMnPYleLMbGLVtnNOQ7De+3GWZeO6td8SIEymrngmxE1+qnUHWwJM+61ylgOgKpaB6y0453YB+LaZzRo9YWYO+j+x8NQRzVEoVgAAAABJRU5ErkJggg==);
+  background-size: 13px 13px;
+}
+
+.ant-timeline-item-content {
+  white-space: nowrap;
+}
+.ant-card-body {
+  position: relative;
+}
+.ant-timeline-item {
+  padding-bottom: 0 !important;
+}
+
+em {
+  font-weight: bold;
+}
