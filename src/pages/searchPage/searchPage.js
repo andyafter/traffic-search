@@ -28,7 +28,6 @@ class SearchPage extends Component {
   };
 
   componentDidMount() {}
-  //请求列表数据
   getList = async (params) => {
     const { suggest_routes, result, msg } = await Service.getList(params);
 
@@ -120,7 +119,7 @@ class SearchPage extends Component {
                       {routers.map((e, i) => {
                         let stations = e.take_stations;
                         return stations.map((el, j) => {
-                          // 判断换乘站
+                          // whether there will be exchanges
                           return j == stations.length - 1 &&
                             i != routers.length - 1 ? (
                             <Timeline.Item label={el.code}>

@@ -39,7 +39,6 @@ const ajax = function (request) {
   }
 };
 
-//用Promise封装原生ajx
 const ajaxPromise = function (url, method, form) {
   var p = new Promise((resolve, reject) => {
     const request = {

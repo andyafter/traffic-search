@@ -1,6 +1,6 @@
 import request from '../utils/request'
 
-//请求逻辑实例化
+// instantiate logic
 
 const stations = {
 
